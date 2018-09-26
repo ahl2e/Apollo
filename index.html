@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Apollo</title>
+    <link rel="stylesheet"
+      type="text/css"
+      href="apollo.css" />
+  </head>
+  <body>
+    <canvas id= "game-canvas" width="1300" height="615" ></canvas>
+    <div id="instrument-panel">
+      <div id="directions">
+        <p>"left and right arrow keys to rotate lander"</p>
+        <p>"up arrow to thrust"</p>
+        <p>land safely without running out of fuel</p>
+      </div>
+      <div id="guage-box">
+      <ul>
+        <li> <p>Lunar Contact</p> <div id="contact-light-on"></div></li>
+        <li> <p>Horizontal Velocity</p> <div></div></li>
+        <li> <p>Vertical Velocity</p> <div></div></li>
+        <li> <p>Fuel</p> <div></div></li>
+
+      </ul>
+    </div>
+    </div>
+    <script src="lib/bundle.js"></script>
+  </body>
+</html>

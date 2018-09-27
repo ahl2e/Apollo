@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack --mode=development --watch"
+    "webpack": "webpack --watch lib/apollo.js -o lib/bundle.js --mode=development"
   },
   "repository": {
     "type": "git",

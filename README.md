@@ -11,6 +11,9 @@ Apollo is a version of the old arcade classic 'Lunar Lander'.  Players take cont
   This encourages players to land as efficiently as possible.
   4. Game is over when a player has crashed three times.
 
+## Wireframe
+![Wireframe](https://github.com/ahl2e/Apollo/blob/master/Apollo%20wireframe.png "Apollo Wireframe")
+
 ## Functionality and MVP
 
   * HTML Canvas to render space and lunar surface

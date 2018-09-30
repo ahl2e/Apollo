@@ -6,8 +6,11 @@
     <link rel="stylesheet"
       type="text/css"
       href="apollo.css" />
-      <script type="application/javascript" src="key_binder/keymaster.js"></script>
+      <script type="application/javascript" src="key_/keymaster.js"></script>
       <script src="lib/bundle.js"></script>
+      <script type="text/javascript">
+        document.getElementById("fuel").innerHTML = 5+6;
+      </script>
   </head>
   <body>
     <canvas id="canvas"></canvas>
@@ -22,7 +25,7 @@
         <li> <p>Lunar Contact</p> <div id="contact-light-on"></div></li>
         <li> <p>Horizontal Velocity</p> <div></div></li>
         <li> <p>Vertical Velocity</p> <div></div></li>
-        <li> <p>Fuel</p> <div></div></li>
+        <li> <p>Fuel</p> <div id="fuel"></div></li>
 
       </ul>
     </div>

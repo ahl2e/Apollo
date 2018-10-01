@@ -1,45 +1,4 @@
 body {
   margin: 0;
-}
-
-#instrument-panel {
-  width: 100%;
-  height: 180px;
-  background-color: grey;
-  display: flex;
-  flex-direction: row;
-}
-
-#guage-box {
-  width: 65%
-}
-
-#instrument-panel ul{
-  justify-content: space-around;
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-}
-
-#contact-light-on {
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
-  background-color: #42bcf4;
-}
-
-#contact-light {
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
-  background-color: #ddd;
-}
-
-#canvas {
-  background-color: black;
-}
-
-#fuel {
-  width: 25px;
-  height: 20px;
+  background-image: url('images/moon.png');
 }

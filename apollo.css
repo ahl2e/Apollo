@@ -20,7 +20,7 @@ body {
 
 .icon-container {
   width: 100px;
-  height: 300px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -34,4 +34,21 @@ body {
 .linkedin {
   height: 70px;
   width: 70px;
+}
+
+#music-toggle {
+  background-image: url('images/sound-off.png');
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+}
+.off{
+  background-image: url('images/sound-on.png');
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+}
+
+p {
+  color: white;
 }

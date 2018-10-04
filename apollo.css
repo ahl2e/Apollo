@@ -1,4 +1,37 @@
 body {
   margin: 0;
   background-image: url('images/moon.png');
+  display: flex;
+  flex-direction: row;
+}
+
+#linkedin {
+  background-image: url('images/linkedin.png');
+}
+
+#github{
+  background-image: url('images/github.png');
+}
+
+#personal {
+  background-image: url('images/angel.png');
+
+}
+
+.icon-container {
+  width: 100px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.icon-container img {
+  height: 50px;
+  width: 50px;
+}
+
+.linkedin {
+  height: 70px;
+  width: 70px;
 }

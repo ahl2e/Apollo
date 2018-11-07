@@ -5,6 +5,12 @@ body {
   flex-direction: row;
 }
 
+@font-face {
+  font-family: 'Share Tech Mono', monospace;
+  scr: url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+}
+
 #linkedin {
   background-image: url('images/linkedin.png');
 }

@@ -30,12 +30,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background-color: white;
 }
 
-.icon-container img {
+/* .icon-container img {
   height: 50px;
   width: 50px;
-}
+} */
 
 .linkedin {
   height: 70px;
